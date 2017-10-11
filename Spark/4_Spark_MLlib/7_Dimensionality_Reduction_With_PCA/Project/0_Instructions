@@ -1,0 +1,8 @@
+1) Wright build.sbt
+2) sbt package
+3) sbt creates a jar file named myproject_2.11-1.0.0.jar under ./target/scala-2.11
+4) spark-submit --class PCAHR --master local[1] target/scala-2.11/myproject_2.11-1.0.0.jar
+5) Instead of 4) you can use "submit_to_spark.sh"
+
+Delete files in .ivy2/cache/ if necessary
+

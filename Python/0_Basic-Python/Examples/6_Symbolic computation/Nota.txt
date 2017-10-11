@@ -1,0 +1,2 @@
+Rifare ogni cosa con 
+from sympy import *

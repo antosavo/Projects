@@ -1,0 +1,18 @@
+----------------------------------------------------------------
+Fri Mar 10 10:44:45 GMT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015a-b7d2-20b8-0000027dc8b0 
+on database directory /home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/3_Spark_SQL/Examples/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@79d7223 
+Loaded from file:/home/physics/phrjfv/spark-2.0.1/jars/derby-10.12.1.1.jar
+java.vendor=IBM Corporation
+java.runtime.version=pxa6470_27sr3fp60-20161021_01 (SR3 FP60)
+java.fullversion=JRE 1.7.0 IBM J9 2.7 Linux amd64-64 Compressed References 20161005_321280 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR3_20161005_1253_B321280
+JIT  - tr.r13.java_20161003_125478
+GC   - R27_Java727_SR3_20161005_1253_B321280_CMPRSS
+J9CL - 20161005_321280
+user.dir=/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/3_Spark_SQL/Examples
+os.name=Linux
+os.arch=amd64
+os.version=3.0.101-94-default
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

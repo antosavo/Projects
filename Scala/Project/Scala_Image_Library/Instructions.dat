@@ -1,0 +1,2 @@
+scalac Image_Processing.scala
+jar -cfv Image_Processing.jar Image
