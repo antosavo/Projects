@@ -17,130 +17,138 @@ using namespace std;
 int main()
 {
         
-  double x,t,f;
-  double dx,dt;
-  int i,j,nx,nt,m,q,r,kmax1;
-  double beta2,beta3,gamma,U0,I,Imax1,Z[5],step;
-  double Ur[100000],Ui[100000],Vr[100000],Vi[100000];
-  double N[100000],L,Br,Bi,Ar,Ai,Percentage_beta3;
-  double xm,tm,xfinal,x_max,delta;
-  double Po1,Tpo1,Opo1,to1,E,H,t_avarage1,Smax,fmax,Opmax;
-  double P1,Tp1,Op1,Ep1;
+        double x,t,f;
+double dx,dt;
+int i,j,nx,nt,m,q,r,kmax1;
+double beta2,beta3,gamma,U0,I,Imax1,Z[5],step;
+double Ur[100000],Ui[100000],Vr[100000],Vi[100000];
+double N[100000],L,Br,Bi,Ar,Ai,Percentage_beta3;
+double xm,tm,xfinal,x_max,delta;
+double Po1,Tpo1,Opo1,to1,E,H,t_avarage1,Smax,fmax,Opmax;
+double P1,Tp1,Op1,Ep1;
 
-  char Intensity_name[50];
-  char Spectrum_name[50];
+char Intensity_name[50];
+char Spectrum_name[50];
 
-  ifstream File_Input("Input.dat"); //open input file
+/* dU/dx = -i(a/2)d^2U/dt^2 + (b/6)d^3U/dt^3 + ic|U|^2 U  */
 
-  File_Input >> Po1; //Reading parameters from input file
+       
 
-  Percentage_beta3=1.0;
+ifstream File_Input("Input.dat"); //open input file
 
-  beta2= -2.6*pow(10,-4);
-  beta3= Percentage_beta3*3.5*pow(10,-5);
-  gamma= 0.01;
+File_Input >> Po1; //Reading parameters from input file
+
+Percentage_beta3=1.0;
+
+beta2= -2.6*pow(10,-4);
+beta3= Percentage_beta3*3.5*pow(10,-5);
+gamma= 0.01;
 
 
-  tm= 160;  // time window in ps
-  m = 14; 
-  nt= pow(2,m); //number of time points for the FFT
-  dt= tm/(nt-1); //t increment
-  to1=0;
+tm= 160;  // time window in ps
+m = 14; 
+nt= pow(2,m); //number of time points for the FFT
+dt= tm/(nt-1); //t increment
+to1=0;
 
-  xm= 40; //40.0/delta;    // fiber length in m
-  nx= pow(10,3);  // number of points along the fiber
-  dx= xm/(nx-1); //x increment
-  xfinal=0;
-  step=xm/4;
+xm= 40; //40.0/delta;    // fiber length in m
+nx= pow(10,3);  // number of points along the fiber
+dx= xm/(nx-1); //x increment
+xfinal=0;
+step=xm/4;
 
-  Z[0]=0;
-  Z[1]=1*step;
-  Z[2]=2*step;
-  Z[3]=3*step; 
-  Z[4]=4*step;
+Z[0]=0;
+Z[1]=1*step;
+Z[2]=2*step;
+Z[3]=3*step; 
+Z[4]=4*step;
 
-  Opo1= 0;
+Opo1= 0;
 
-  Tpo1= sqrt((-beta2-beta3*Opo1)/(gamma*Po1)); 
+Tpo1= sqrt((-beta2-beta3*Opo1)/(gamma*Po1)); 
 
-  ofstream File_Quasisoliton("Quasisoliton.dat"); //open output file
+ofstream File_Quasisoliton("Quasisoliton.dat"); //open output file
 
 
 /*Initializing Wave values on position x=0 */
 
 
-  for(i=0; i<nt; i++)  
-    {  
-    t=(i-0.5*(nt-1))*dt;
-    Ur[i]=(sqrt(Po1)/cosh((t-to1)/Tpo1))*cos(-Opo1*(t-to1)) ; // real part of U
-    Ui[i]=(sqrt(Po1)/cosh((t-to1)/Tpo1))*sin(-Opo1*(t-to1)) ;  // imaginary part of U
-    }
+for(i=0; i<nt; i++)  
+  {  
+  t=(i-0.5*(nt-1))*dt;
+
+  Ur[i]=(sqrt(Po1)/cosh((t-to1)/Tpo1))*cos(-Opo1*(t-to1)) ; // real part of U
+  Ui[i]=(sqrt(Po1)/cosh((t-to1)/Tpo1))*sin(-Opo1*(t-to1)) ;  // imaginary part of U
+  }
 
 /* Calculation of the wave for each positions */
 
-  for(q=0;q<5;q++)
+for(q=0;q<5;q++)
+  {
+  
+  x_max=Z[q];  
+
+  cout << "x = " << x_max << "\n";
+
+
+  while(xfinal<=x_max)
     {
-    x_max=Z[q];  
-    cout << "x = " << x_max << "\n";
-      
-    while(xfinal<=x_max)
-      {
-      
-      xfinal+=dx;
+
+    xfinal+=dx;
 
  
  /* N=ic|U|^2 */
 
-      for(i=0; i<nt; i++)  
-	{
-	N[i]=gamma*Ur[i]*Ur[i]+gamma*Ui[i]*Ui[i];
-	}
+    for(i=0; i<nt; i++)  
+      {
+      N[i]=gamma*Ur[i]*Ur[i]+gamma*Ui[i]*Ui[i];
+      }
   
 /* FFT of U(t,x) */
   
-      FFT(Ur,Ui,m,1);
+    FFT(Ur,Ui,m,1);
 
 /* V=exp(dx*L)*FFT(U)=B*FFT(U) */
 
-      for(i=0; i<nt; i++)  
-	{
-	//f=i/(dt*nt);
-	if(i<(nt/2)){f=i/(dt*nt);}
-	else{f= (-nt+i)/(dt*nt);}
+    for(i=0; i<nt; i++)  
+      {
+      //f=i/(dt*nt);
+      if(i<(nt/2)){f=i/(dt*nt);}
+      else{f= (-nt+i)/(dt*nt);}
     
-	L=(beta2/2)*(2*M_PI*f)*(2*M_PI*f)+(beta3/6)*(2*M_PI*f)*(2*M_PI*f)*(2*M_PI*f);
+      L=(beta2/2)*(2*M_PI*f)*(2*M_PI*f)+(beta3/6)*(2*M_PI*f)*(2*M_PI*f)*(2*M_PI*f);
 
-	Br=cos(dx*L);
-	Bi=sin(dx*L);
+      Br=cos(dx*L);
+      Bi=sin(dx*L);
     
-	Vr[i]=Ur[i]*Br-Ui[i]*Bi;
-	Vi[i]=Ui[i]*Br+Ur[i]*Bi;
-	}
+      Vr[i]=Ur[i]*Br-Ui[i]*Bi;
+      Vi[i]=Ui[i]*Br+Ur[i]*Bi;
+      }
 
 /* IFFT of V */
 
-      FFT(Vr,Vi,m,-1);
+    FFT(Vr,Vi,m,-1);
 
-      for(i=0; i<nt; i++)  
-	{
-	//t=i*dt;
-	Vr[i] /=nt;
-	Vi[i] /=nt;
-	}
+    for(i=0; i<nt; i++)  
+      {
+      //t=i*dt;
+      Vr[i] /=nt;
+      Vi[i] /=nt;
+      }
 
 
 /* U(x+dx)=exp(dx*N)*IFFT(V)=A*IFFT(V) */
 
-      for(i=0; i<nt; i++)  
-	{
-	Ar=cos(dx*N[i]);
-	Ai=sin(dx*N[i]);
-	
-	Ur[i]=Vr[i]*Ar-Vi[i]*Ai;
-	Ui[i]=Vi[i]*Ar+Vr[i]*Ai;
-	}
-
+    for(i=0; i<nt; i++)  
+      {
+      Ar=cos(dx*N[i]);
+      Ai=sin(dx*N[i]);
+      
+      Ur[i]=Vr[i]*Ar-Vi[i]*Ai;
+      Ui[i]=Vi[i]*Ar+Vr[i]*Ai;
       }
+
+    }
 
 
 /* Intensity and Amplitude */
@@ -251,3 +259,37 @@ system ("gnuplot s_Spectrum.sh"); //gnuplot script
 return 0;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

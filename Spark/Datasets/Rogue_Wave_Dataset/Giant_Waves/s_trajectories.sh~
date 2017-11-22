@@ -1,0 +1,64 @@
+#load 's_xt'
+
+reset
+
+#set term wxt
+set term pngcairo enhanced
+
+set xrange [0:10]
+#set xtics (0,5,10,15,20,25) font ",13"
+#set ytics (0,250,500,750,1000,1250,1500) font ",13"
+set yrange [100:500]
+#set yrange [0:]
+#set logscale y 10
+
+#set boxwidth 0.8 relative
+
+#set style fill solid 0.5
+#set object 1 rectangle behind from graph 0,0 to graph 1,1 fillcolor rgb"blue"
+
+#load 'YlGnBu.plt'
+set cbrange [0:100]
+#set palette negative
+#set palette defined (0 "blue",0.1 "green", 2 "yellow",3 "orange",4"red")
+#set palette defined (0 "blue",0.1 "green", 2 "yellow")
+#set palette defined (0 "royalblue",0.1 "green",2"yellow")
+#set palette defined (0 "royalblue",0.1 "green",2"yellow")
+
+
+set palette defined (0 "white",0.1"gray",1"black")
+#set palette defined (0 "blue",0.1 "green", 2 "red")
+
+
+#set xlabel "t  (picoseconds)" font ",13"
+#set ylabel "z  (meters)" font ",13"
+#set cblabel "Power (Watts)" font ",13"
+
+
+
+#set key top left
+unset key
+
+unset xtics
+
+unset ytics
+
+unset border
+
+unset colorbox
+
+#unset cbr
+
+set output "Trajectories.png"
+
+
+#plot for [i=1:100] "xt.dat" u f(i):1 w lines lc rgb "blue"
+plot "trajectories.dat" u 1:2:3 palette z
+
+
+
+
+
+#(x,t1,P1,t2,P2....)
+
+#pause -1 "Press enter"

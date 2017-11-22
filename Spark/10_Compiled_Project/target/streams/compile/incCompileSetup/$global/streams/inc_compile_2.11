@@ -1,0 +1,269 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+6 items
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes/PCAHR$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$1.class
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes/PCAHR$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes/PCAHR$$anonfun$main$1.class
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes/PCAHR$$typecreator2$1.class
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes/PCAHR$.class
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes/PCAHR.class
+binary dependencies:
+8 items
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.0.1.jar
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.0.1.jar
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.0.1.jar
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.0.1.jar
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Image_Processing.jar
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> /home/physics/phrjfv/Java-jdk1.8/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+6 items
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> PCAHR
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> PCAHR$
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> PCAHR$$anonfun$main$1
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> PCAHR$$anonfun$main$1$$anonfun$apply$mcVI$sp$1
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> PCAHR$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$1
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> PCAHR$$typecreator2$1
+used names:
+161 items
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> !=
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> $m
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> $m$untyped
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> $typecreator2
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> $u
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> &
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> &&
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> +
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> -
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> :+
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> <=
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> <init>
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> ==
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> >
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> AnyRef
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Array
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> ClassTag
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> CrossValidator
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> DenseVector
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Double
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Image
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> J
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> K
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> List
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> LogisticRegression
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Mirror
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> MulticlassClassificationEvaluator
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Nothing
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> OneVsRest
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Ordering
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> PCA
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> PCAHR
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> ParamGridBuilder
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Pipeline
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Predef
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Processing
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Singleton
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> SparkSession
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> StandardScaler
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> String
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> ThisType
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Tuple2
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Type
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> TypeCreator
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> TypeRef
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> TypeTag
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> U
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Unit
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Universe
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> V
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Vector
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> Vectors
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> _1
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> _2
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> accuracy
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> acimage
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> apache
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> appName
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> apply
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> asInstanceOf
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> asModule
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> asType
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> autoCropImage
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> builder
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> canBuildFrom
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> classification
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> collection
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> covertToArray
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> crosstab
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> data
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> dense
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> df
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> doubleArrayOps
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> empty
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> evaluate
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> evaluation
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> evaluator
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> feature
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> fit
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> foreach
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> functions
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> get
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> getClass
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> getClassLoader
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> getOrCreate
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> image
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> immutable
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> implicits
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> intWrapper
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> internal
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> isEmpty
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> j
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> k
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> lengthCompare
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> linalg
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> localSeqToDatasetHolder
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> lr
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> m
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> map
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> materializeClassTag
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> materializeTypeTag
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> math
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> max
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> ml
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> model
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> moduleClass
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> newProductEncoder
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> org
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> ovr
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> p
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> package
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> path
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> pca
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> predictions
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> println
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> randomSplit
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> readImage
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> reflect
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> reificationSupport
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> resizeImage
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> rimage
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> runtime
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> runtimeMirror
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> s
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> scala
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> scaler
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> setClassifier
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> setFeaturesCol
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> setInputCol
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> setK
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> setLabelCol
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> setMaxIter
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> setMetricName
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> setOutputCol
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> setPredictionCol
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> show
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> sort
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> spark
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> sql
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> stat
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> staticClass
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> staticPackage
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> stop
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> testData
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> testData_p
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> testData_s
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> to
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> toDF
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> toDouble
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> toString
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> toTypeConstructor
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> trainingData
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> trainingData_p
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> trainingData_s
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> transform
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> tuning
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> unapplySeq
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> unary_!
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> unchecked
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> universe
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> x
+product stamps:
+6 items
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes/PCAHR$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$1.class -> lastModified(1504531813000)
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes/PCAHR$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class -> lastModified(1504531813000)
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes/PCAHR$$anonfun$main$1.class -> lastModified(1504531813000)
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes/PCAHR$$typecreator2$1.class -> lastModified(1504531813000)
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes/PCAHR$.class -> lastModified(1504531813000)
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/target/scala-2.11/classes/PCAHR.class -> lastModified(1504531813000)
+source stamps:
+1 items
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> hash(10e741622e5c5bf893fc0d4226f871b79473b5af)
+binary stamps:
+8 items
+/home/physics/phrjfv/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.0.1.jar -> lastModified(1475112874000)
+/home/physics/phrjfv/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.0.1.jar -> lastModified(1475112432000)
+/home/physics/phrjfv/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.0.1.jar -> lastModified(1475113070000)
+/home/physics/phrjfv/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.0.1.jar -> lastModified(1475113023000)
+/home/physics/phrjfv/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+/home/physics/phrjfv/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> lastModified(1457105200000)
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Image_Processing.jar -> lastModified(1486935264000)
+/home/physics/phrjfv/Java-jdk1.8/jre/lib/rt.jar -> lastModified(1489566767000)
+class names:
+8 items
+/home/physics/phrjfv/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/jars/spark-catalyst_2.11-2.0.1.jar -> org.apache.spark.sql.Row
+/home/physics/phrjfv/.ivy2/cache/org.apache.spark/spark-mllib-local_2.11/jars/spark-mllib-local_2.11-2.0.1.jar -> org.apache.spark.ml.linalg.Vectors$
+/home/physics/phrjfv/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.0.1.jar -> org.apache.spark.ml.Pipeline
+/home/physics/phrjfv/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.0.1.jar -> org.apache.spark.sql.Dataset
+/home/physics/phrjfv/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.collection.immutable.Vector$
+/home/physics/phrjfv/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar -> scala.reflect.runtime.package$
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Image_Processing.jar -> Image.Processing$
+/home/physics/phrjfv/Java-jdk1.8/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+1 items
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD9DsJ7AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOkWMv50AAZub3RpZnlzcQB+AAxd3hVzdAAEd2FpdHNxAH4ADOfkFNB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMBTNMlHQABmVxdWFsc3NxAH4ADGgUxrp0AAxhc0luc3RhbmNlT2ZzcQB+AAwb0jQTdAAMc3luY2hyb25pemVkc3EAfgAMTLSAyHQADSRpc0luc3RhbmNlT2ZzcQB+AAyyUQR7dAAEbWFpbnNxAH4ADDNszQx0AAlub3RpZnlBbGxzcQB+AAxaAw9CdAAMaXNJbnN0YW5jZU9mc3EAfgAMWlCPjHQAAj09c3EAfgAMW70ulXQABWNsb25lc3EAfgAMrNsa/3QABVBDQUhSc3EAfgAM0fcn03QACHRvU3RyaW5nc3EAfgAMhc5LI3QAAiE9c3EAfgAMQsm2gnQACGdldENsYXNzc3EAfgAM69im0XQAAm5lc3EAfgAMgRCOTXQAAmVxc3EAfgAM+p7utnQAAiMjc3EAfgAM7MzuMXQACGZpbmFsaXplc3EAfgAMr7flgHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgAndXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBYc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AXXNxAH4AWHVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AHXVxAH4AUAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBcdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGV4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFN0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AGxbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AFxzcQB+AGt0AAVBcnJheXEAfgBxdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AGt0AAZTdHJpbmdzcQB+AG9zcQB+AHJ1cQB+AHUAAAADc3EAfgB3dAAEamF2YXNxAH4Ad3QABGxhbmdxAH4AfHNxAH4AWHVxAH4APAAAAABzcQB+AFh1cQB+AJAAAAACc3EAfgBrdAAGT2JqZWN0cQB+AJRzcQB+AGt0AANBbnlxAH4AcXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFeTRWHpnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AH0vaG9tZS9waHlzaWNzL3Bocmpmdi9EZXNrdG9wL0RhdGFfU2NpZW5jZS8yX1NjYWxhX2FuZF9TcGFyay9TcGFyay80X1NwYXJrX01MbGliLzEwX0NvbXBpbGVkX1Byb2plY3QvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFBDnQWIuXFv4k/wNQib4cbeUc7Wv
+external apis:
+0 items
+source infos:
+1 items
+/home/physics/phrjfv/Desktop/Data_Science/2_Scala_and_Spark/Spark/4_Spark_MLlib/10_Compiled_Project/Hand-drawn_characters_recognition.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXk0Vh6Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAfS9ob21lL3BoeXNpY3MvcGhyamZ2L0Rlc2t0b3AvRGF0YV9TY2llbmNlLzJfU2NhbGFfYW5kX1NwYXJrL1NwYXJrLzRfU3BhcmtfTUxsaWIvMTBfQ29tcGlsZWRfUHJvamVjdC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

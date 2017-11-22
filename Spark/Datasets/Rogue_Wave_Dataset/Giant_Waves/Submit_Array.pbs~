@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=1,pvmem=256mb,walltime=10:00:00
+#PBS -V
+#PBS -t 1-50
+
+#curr_dir=`pwd`
+
+cd $PBS_O_WORKDIR
+
+mkdir seed_$PBS_ARRAYID
+
+cp SSFM.c seed_$PBS_ARRAYID
+cp s_Intensity.sh seed_$PBS_ARRAYID
+cp s_Spectrum.sh seed_$PBS_ARRAYID
+cp s_trajectories.sh seed_$PBS_ARRAYID
+
+echo "$PBS_ARRAYID" >> seed_$PBS_ARRAYID/Input.dat
+
+cd seed_$PBS_ARRAYID
+
+ulimit -s 200000
+
+gcc -lm -O4 SSFM.c
+
+./a.out

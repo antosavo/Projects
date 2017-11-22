@@ -1,7 +1,0 @@
-//To compile a program
-scalac Scala_App.scala
-
-//Copy “scala” folder from “scale-library.jar”
-
-//To run the program
-java Scala_App

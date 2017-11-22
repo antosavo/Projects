@@ -1,0 +1,45 @@
+#!/bin/bash
+
+#chmod 755 Test.sh
+
+#curr_dir=`pwd`
+
+#let Tp=$i*$step
+
+P1=20
+
+P2=10
+
+alfa=0.5
+
+m1=14  #m1=15 nt=2^m1
+
+m2=6   #m2=6  nx=10^m2
+
+beta3=1 #units Taki
+
+#for seed in 0 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 260 270 280 290 300 310 320 330 340 350
+#for seed in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 
+for seed in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+#for seed in 1 2 3 4 5 6 7 8 9 10
+#for seed in 360
+do
+
+
+
+   mkdir seed_$seed
+
+   cp run_script.pbs seed_$seed
+   cp SSFM.c seed_$seed
+   cp s_Intensity.sh seed_$seed
+   cp s_Spectrum.sh seed_$seed
+
+   cd seed_$seed
+
+   qsub run_script.pbs
+
+   cd ..
+
+   echo "$seed" >> seed_$seed/Input.dat
+
+done

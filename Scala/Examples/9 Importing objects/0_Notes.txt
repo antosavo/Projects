@@ -1,4 +1,0 @@
-scalac My_Object.scala //To create the class Ob
-scala Using_Object.scala
-
-
