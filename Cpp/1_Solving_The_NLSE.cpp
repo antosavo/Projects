@@ -17,7 +17,7 @@ using namespace std;
 int main()
 {
         
-        double x,t,f;
+double x,t,f;
 double dx,dt;
 int i,j,nx,nt,m,q,r,kmax1;
 double beta2,beta3,gamma,U0,I,Imax1,Z[5],step;
@@ -259,37 +259,3 @@ system ("gnuplot s_Spectrum.sh"); //gnuplot script
 return 0;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
