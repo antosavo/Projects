@@ -135,7 +135,7 @@ int main()
     }
     
     system("python Plot_Intensity.py"); //Intensity plot script
-    system("python Plot_Spectrum.py");  //Spectrum plott script
+    system("python Plot_Spectrum.py");  //Spectrum plot script
 
     return 0;
 }
