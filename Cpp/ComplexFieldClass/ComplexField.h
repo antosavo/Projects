@@ -5,7 +5,7 @@ using namespace std;
 template <int N>
 class ComplexField {
     public:
-    double real[N]; //Real part of a complex vector (v.imageld)
+    double real[N]; //Real part of a complex vector (field)
     double imag[N]; //Imaginary part of a complex vector
     void print();   //Method to print a complex vector
     int length();   //Method that gives the number of components
