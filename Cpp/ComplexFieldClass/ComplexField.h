@@ -11,7 +11,7 @@ class ComplexField {
     int length();   //Method that gives the number of components
     double modulus();   //Method that gives the modulus of a complex vector
     ComplexField<N> T(); //Method that gives the complex conjugate of a vector
-    ComplexField<N> operator=(ComplexField<N> v);//Assignement = operator
+    ComplexField<N> operator=(ComplexField<N> v);   //Assignement = operator
     
     /*Below are defined also the following functions and operators*/
     
