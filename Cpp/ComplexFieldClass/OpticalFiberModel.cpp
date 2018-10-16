@@ -1,5 +1,6 @@
 /*
-This code simulates an optical communication fibers using the customized class of complex vectors called ComplexField.h. The output files are the Intensity and the spectrum of the input wave.
+This code simulates an optical communication fiber using the customized class of complex vectors called ComplexField.h. 
+The output files are the intensity and the spectrum of the input wave.
 */
 
 #include "ComplexField.h"     //ComplexField Module
