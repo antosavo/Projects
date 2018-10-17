@@ -1,14 +1,15 @@
 /*
-This code simulates an optical communication fiber using the customized class of complex vectors called ComplexField.h. 
+This code simulates an optical communication fiber using the customized class of complex vectors called ComplexField.hpp. 
 The output files are the intensity and the spectrum of the input wave.
 */
 
-#include "ComplexField.h"     //ComplexField Module
+#include "ComplexField.hpp"     //ComplexField Module
 #include <iostream>  //support  to write and read from console
 #include <fstream>   //support to write and read files
 #include <cmath>     //support for mathematical functions
 #include <cstdlib>   //support for rand, system ....
 using namespace std;
+
 
 int main()
 {
@@ -17,8 +18,8 @@ int main()
     double beta3= 3.5*pow(10,-5);
     double gamma= 0.01;
     
-    int i, q, m=14;   
-    int nt= pow(2,m);   //2^m=16384 is the number of FFT points
+    int i, q;
+    const int nt=16384; //2^14=16384 is the number of FFT points
     double tm= 160;     //Time window in ps
     double dt= tm/(nt-1);   //t increment
     double t, to=0;   //Time variable and initial time
@@ -37,14 +38,30 @@ int main()
     Z[3]=3*step; 
     Z[4]=4*step;
 
-    ComplexField<16384> U;  //Optical field
-    ComplexField<16384> N,V,B;  //Intermediate parameters
-    double Po= 1.0; //Initial power
-    double Oo= -10.0;   //Initial frequency
-    double To= sqrt((-beta2-beta3*Oo)/(gamma*Po));  //Initial duration
+    ComplexField<nt> U;  //Optical field
+    ComplexField<nt> N,V,B;  //Intermediate fields
     
     char Intensity_name[50]; //Intensity file name
     char Spectrum_name[50]; //Spectrum file name
+    
+    char C[4]; //Input variable name
+    double Input[4]; //Input variable value
+    
+    //Reading parameters from input file
+    
+    ifstream File_Input("Input.dat"); //open input file
+    
+    while(!File_Input.eof())
+    {
+        File_Input >> C[i]>> Input[i]; //read from File_Input
+        i++;
+    }
+    
+    double Po = Input[0]; //Initial power
+    double Oo = Input[1]; //Initial frequency
+    double To= sqrt((-beta2-beta3*Oo)/(gamma*Po));  //Initial duration
+    
+    File_Input.close();
 
     //Initializing the optical field
     
@@ -68,7 +85,7 @@ int main()
         V.imag[i]=sin(dx*L);
       }
     
-    //Propagation in space the optical field
+    //Propagation in space of the optical field
     
     for(q=0; q<5; q++)
     {
@@ -79,27 +96,31 @@ int main()
         
          while(x_final<=x_max)
          {
+             /*
+             This section uses the split step fourier method and the class ComplexField to solve the nonlinear Schroedinger equation.
+             */
+             
              x_final+=dx;
              
-             //N=c|U|^2
+             //N=gamma*|U|^2
              N=gamma*U*U.T();
              
-             //FFT of U(t,x)
+             //FFT of U
              FFT(U,1);
              
-             //B=V*U;
+             //B=V*U, V=exp(dx*L) defined before
              B=V*U;
              
-             //IFFT of V
+             //IFFT of B
              FFT(B,-1);
              
              //U at position x + dx
              U=ExpI(N*dx)*B;
          }
         
-        //Save  Intensity data
+        //Save the Intensity data
         
-        sprintf(Intensity_name,"Intensity_%i.dat",q);
+        sprintf(Intensity_name, "Intensity_%i.dat", q);
         ofstream File_Intensity(Intensity_name); //open output file
         
         for(i=0; i<nt; i++)  
@@ -113,9 +134,9 @@ int main()
 
         File_Intensity.close();
         
-        //Save Spextrum data
+        //Save the Spextrum data
         
-        sprintf(Spectrum_name,"Spectrum_%i.dat",q);
+        sprintf(Spectrum_name, "Spectrum_%i.dat", q);
         ofstream File_Spectrum(Spectrum_name);
         
         FFT(U,1);
@@ -134,8 +155,9 @@ int main()
         
     }
     
-    system("python Plot_Intensity.py"); //Intensity plot script
-    system("python Plot_Spectrum.py");  //Spectrum plot script
+    system("python Plot_Intensity.py"); //Call intensity plot script
+    
+    system("python Plot_Spectrum.py");  //Call spectrum plot script
 
     return 0;
 }
