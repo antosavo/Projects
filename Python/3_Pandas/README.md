@@ -1,0 +1,1 @@
+The Data_Preprocessing.ipynb script preprocess the data for the interaction of two signals in an optical fiber. The target variable is the energy E. There are three input files that are merged and concatenated in a single data-set. Finally, the new data-set is cleaned and explored.
