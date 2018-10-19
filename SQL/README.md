@@ -1,0 +1,1 @@
+This SQL script preprocess the data for the interaction of two signals in an optical fiber. The target variable is the energy E. There are three input files that are joined and united in a single data-set. Finally, the new data-set is cleaned and explored.
